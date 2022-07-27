@@ -99,6 +99,27 @@ a.border-button:hover {
     height: 45px;
 }
 
+.form-control {
+	border: #21abe2 1px solid !important;
+}
+
+.form-control:focus {
+	border: #21abe2 3px solid !important;
+}
+
+#contact::after {
+	content: "";
+	width: 200px;
+	height: 4px;
+	background: #21abe2;
+	display: block;
+	margin: 20px auto;
+}
+
+#map {
+	padding-top: 130px;
+}
+
 .imagens-portfolio {
 	max-height: 137px;
 }
